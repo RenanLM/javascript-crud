@@ -1,0 +1,134 @@
+/* Define a fonte padrão e o tamanho da fonte */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centraliza o conteúdo da página */
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Estilo do título principal */
+h1 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário de cadastro */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo da lista de cadastrados */
+#registeredList {
+    margin-top: 20px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#registeredList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#registeredList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#registeredList li:last-child {
+    border-bottom: none;
+}
+
+/* Estilo dos botões de editar e deletar */
+#registeredList button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#registeredList button.edit {
+    background-color: #28a745;
+}
+
+#registeredList button.edit:hover {
+    background-color: #218838;
+}
+
+#registeredList button.delete {
+    background-color: #dc3545;
+}
+
+#registeredList button.delete:hover {
+    background-color: #c82333;
+}
+
+/* Estilo do botão Mostrar/Esconder Lista */
+#toggleListButton {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #6c757d;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#toggleListButton:hover {
+    background-color: #5a6268;
+}
